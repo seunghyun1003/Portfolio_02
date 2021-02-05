@@ -4122,7 +4122,7 @@ button.btn--pill {
   box-shadow: 0 3px 6px rgb(0 0 0 / 20%), 0 3px 6px rgb(0 0 0 / 20%);
 }
 .proj-item-img {
-  overflow: hidden;
+  overflow: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -4130,7 +4130,6 @@ button.btn--pill {
 }
 .proj-item-img img {
   display: block;
-  max-height: 600px;
   margin: 0 auto;
 }
 
@@ -4160,7 +4159,7 @@ button.btn--pill {
     margin-bottom: var(--vspace-1_5);
   }
   .proj-item-img {
-    overflow: hidden;
+    overflow: auto;
     display: flex;
     align-items: center;
     justify-content: center;
