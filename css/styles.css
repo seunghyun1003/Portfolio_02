@@ -4155,7 +4155,6 @@ button.btn--pill {
 @media screen and (max-width: 800px) {
   .proj-item {
     flex-direction: column;
-    padding: 10px;
     position: relative;
     overflow: hidden;
     margin-bottom: var(--vspace-1_5);
@@ -4179,14 +4178,15 @@ button.btn--pill {
   }
 
   .proj-item .proj-item-info {
-    padding-top: 10px;
+    padding: 0;
+    margin: 20px 2%;
   }
 
   .proj-item .proj-item-info > h5 {
     margin: 0;
   }
   .proj-item .proj-item-info > p {
-    margin: 20px 0;
+    margin: 0;
   }
 }
 
