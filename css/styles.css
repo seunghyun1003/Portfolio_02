@@ -191,7 +191,7 @@
      */
   --base-size: 62.5%;
   --base-font-size: 1.8rem;
-  --space: 3.2rem;
+  --space: 2.9rem;
 
   /* vertical spacing 
      */
@@ -3909,7 +3909,7 @@ button.btn--pill {
  * ------------------------------------------------------------------- */
 .s-about {
   --color-border: var(--color-gray-16);
-  background-color: #f0eef5;
+  background-color: var(--color-gray-1);
   padding-top: calc(6 * var(--space));
   padding-bottom: var(--vspace-4);
   color: black;
